@@ -23,8 +23,8 @@
                 <div class="tasks d-flex justify-content-between flex-wrap border p-3 m-2 ">
                     <div class="child">{{task.task}}</div>
                     <div class="child">
-                        <button class="btn btn-primary">update</button>
-                        <button class="btn btn-secondary">done</button>
+                        <a href="{% url 'update' task.id %}" class="btn btn-primary">update</a>
+                        <a class="btn btn-success">done</a>
                     </div>
                 </div>
                 {% endfor %}

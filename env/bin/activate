@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/arya/Desktop/arya/env"
+VIRTUAL_ENV="/home/novavi/Desktop/ARYA/TODO/env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
